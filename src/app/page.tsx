@@ -30,6 +30,7 @@ export default function WebAgency2Page() {
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           brandName="Megafon Dijital"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Eaynf0hmRzeEvrorkbUuMj9E8g/uploaded-1780439069593-4rf0du2j.png"
           navItems={[
             { name: "Hizmetler", id: "services" },
             { name: "Referanslar", id: "work" },
