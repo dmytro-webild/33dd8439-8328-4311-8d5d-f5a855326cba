@@ -8,11 +8,9 @@ import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import FeatureCardSixteen from "@/components/sections/feature/FeatureCardSixteen";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
-import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import FaqBase from "@/components/sections/faq/FaqBase";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import { Sparkles, Search, ArrowUpRight, Monitor, Shield, Zap, Puzzle, TrendingUp, Lock, Phone, MessageCircle, BookOpen, Tv, Camera, Music, Settings, Award, Users } from "lucide-react";
 
 export default function WebAgency2Page() {
@@ -38,7 +36,7 @@ export default function WebAgency2Page() {
             { name: "Hakkımızda", id: "about" },
             { name: "İletişim", id: "contact" },
           ]}
-          button={{ text: "Hemen Başla", href: "#contact" }}
+          button={{ text: "Randevu Alın", href: "#contact" }}
         />
         <HeroSplitDoubleCarousel
           title="Dijitaldeki Sesiniz: Megafon Dijital"
@@ -167,17 +165,6 @@ export default function WebAgency2Page() {
               title: "Büyüme Trendleri",              description: "Arama motoru varlığınızı optimize etmek ve trafik çekmek için veri odaklı içgörüler.",              bentoComponent: "line-chart"},
           ]}
         />
-        <TestimonialCardFifteen
-          testimonial="Megafon Dijital, online varlığımızı tamamen dönüştürdü. Ekip, beklentilerimizi aşan çarpıcı bir web sitesi teslim etti ve dönüşüm oranımızı ikiye katladı."
-          rating={5}
-          author="— Ayşe Yılmaz, CEO, Yıldız Seyahat"
-          avatars={[
-            { src: "http://img.b2bpic.net/free-photo/serious-beautiful-middle-aged-business-woman_1262-3072.jpg", alt: "Müşteri Yorumu" },
-          ]}
-          ratingAnimation="slide-up"
-          avatarsAnimation="slide-up"
-          useInvertedBackground={false}
-        />
         <MetricCardOne
           title="Neden Megafon Dijital?"
           description="Gerçek sonuçlar veren dijital ürünler geliştirme konusundaki deneyimimiz."
@@ -205,19 +192,6 @@ export default function WebAgency2Page() {
             items: [
               "Markanıza özel, kişiselleştirilmiş tasarımlar",              "Tüm cihazlarda yıldırım hızında performans",              "Organik trafik sağlayan yerleşik SEO",              "Güven oluşturan modern tasarım",              "Özel destek ve bakım"],
           }}
-        />
-        <TeamCardFive
-          title="Ekibimizle Tanışın"
-          description="Bir sonraki projenizin arkasındaki yaratıcı beyinler."
-          textboxLayout="default"
-          useInvertedBackground={false}
-          animationType="slide-up"
-          mediaClassName="object-[65%_center]"
-          team={[
-            { id: "1", name: "Can Demir", role: "Kurucu & CEO", imageSrc: "http://img.b2bpic.net/free-photo/cheerful-man-sitting-office-using-phone_171337-17183.jpg", imageAlt: "Can Demir" },
-            { id: "2", name: "Elif Kaya", role: "Pazarlama Direktörü", imageSrc: "http://img.b2bpic.net/free-photo/data-driven-planning-helps-this-professional-build-successful-strategy_482257-126336.jpg", imageAlt: "Elif Kaya" },
-            { id: "3", name: "Murat Akın", role: "Baş Yazılımcı", imageSrc: "http://img.b2bpic.net/free-photo/portrait-male-engineer-working-field-engineers-day-celebration_23-2151615114.jpg", imageAlt: "Murat Akın" },
-          ]}
         />
         <FaqBase
           title="Sıkça Sorulan Sorular"
