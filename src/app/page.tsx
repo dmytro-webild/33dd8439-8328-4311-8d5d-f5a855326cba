@@ -30,7 +30,7 @@ export default function WebAgency2Page() {
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           brandName="Megafon Dijital"
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Eaynf0hmRzeEvrorkbUuMj9E8g/uploaded-1780439069593-4rf0du2j.png"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Eaynf0hmRzeEvrorkbUuMj9E8g/uploaded-1780439394805-er42fyd7.png"
           navItems={[
             { name: "Hizmetler", id: "services" },
             { name: "Referanslar", id: "work" },
@@ -204,7 +204,7 @@ export default function WebAgency2Page() {
             { id: "1", title: "Tipik bir proje ne kadar sürer?", content: "Projelerin çoğu kapsam ve karmaşıklığa bağlı olarak ortalama 5 iş günü içinde tamamlanır. İlk görüşmemizde size detaylı bir zaman çizelgesi sunacağız." },
             { id: "2", title: "Fiyatlandırma yapınız nasıl?", content: "İhtiyaçlarınıza özel proje bazlı fiyatlandırma sunuyoruz. Her proje tasarım, geliştirme, SEO optimizasyonu ve lansman sonrası desteği içerir." },
             { id: "3", title: "Sürekli bakım hizmeti sunuyor musunuz?", content: "Evet! Web sitenizin güncel, güvenli ve en iyi performansta kalması için sürekli destek ve bakım paketleri sunuyoruz." },
-            { id: "4", title: "Mevcut web sitemi yeniden tasarlayabilir misiniz?", content: "Kesinlikle. Mevcut içeriğinizi ve SEO sıralamalarınızı koruyarak markanızı modernleştiren web sitesi yeniden tasarımlarında uzmanız." },
+            { id: "4", title: "Mevcut web sitemi yeniden tasarlayabilir misiniz?", content: "Kesinlikle. Mevcut içeriğinizi ve SEO sıralamalarını koruyarak markanızı modernleştiren web sitesi yeniden tasarımlarında uzmanız." },
             { id: "5", title: "Hangi teknolojileri kullanıyorsunuz?", content: "Hızlı, ölçeklenebilir ve sürdürülebilir web siteleri sağlamak için Next.js, React ve Tailwind CSS gibi modern teknolojilerle inşa ediyoruz." },
           ]}
         />
