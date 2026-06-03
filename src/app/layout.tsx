@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description: 'Megafon Dijital: İzmir merkezli dijital pazarlama ajansınız. Web tasarım, SEO, sosyal medya yönetimi ile dijitaldeki sesiniz oluyoruz. Ortalama 5 iş günü teslimat.',
 };
 
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
