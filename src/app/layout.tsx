@@ -6,22 +6,24 @@ import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
+import { Open_Sans } from "next/font/google";
 
-const halant = Halant({
-  variable: "--font-halant",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: 'Megafon Dijital | İzmir Dijital Pazarlama Ajansı',
   description: 'Megafon Dijital: İzmir merkezli dijital pazarlama ajansınız. Web tasarım, SEO, sosyal medya yönetimi ile dijitaldeki sesiniz oluyoruz. Ortalama 5 iş günü teslimat.',
 };
+
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,
@@ -31,9 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body
-          className={`${halant.variable} ${inter.variable} antialiased`}
-        >
+        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
           <Tag />
           {children}
           <script
